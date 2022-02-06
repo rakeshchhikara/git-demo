@@ -9,10 +9,9 @@ When customer opens a TAC case for IOS-XR device, TAC engineer requests certain 
 This script will automate collection of above information from IOS-XR devices and upload captured logs to case.
 
 This tool can be used by
-
-	* Customers
-	* HTEs/NCEs who needs to capture and upload IOS-XR logs on behalf of customer
-	* TAC engineers - They can help customer to upload logs easily to case during Troubleshooting sessions.
+- Customers
+- HTEs/NCEs who needs to capture and upload IOS-XR logs on behalf of customer
+- TAC engineers - They can help customer to upload logs easily to case during Troubleshooting sessions.
 
 Where this tool need to be run
 	- From customer Jump Server or local machine.
