@@ -14,13 +14,13 @@ This tool can be used by
 - TAC engineers - They can help customer to upload logs easily to case during Troubleshooting sessions.
 
 Where this tool need to be run
-	- From customer Jump Server or local machine.
+- From customer Jump Server or local machine.
 	
 
 ## Getting Started
 
-	- Setup virtual environment and install required libraries.  	
-  	- Create a python file and copy script code to it.
+- Setup virtual environment and install required libraries.  	
+- Create a python file and copy script code to it.
   	
 
 ### Prerequisites
@@ -61,9 +61,9 @@ Steps to ready environment on Jump Server to run this tool.
 
 ## Deployment
 
-- This script need to be run from Jump Server or local machine. It should met following criteria
-	- Reachability to IOS-XR device from where logs need to be captured.
-	- Reachability to cxd.cisco.com
+This script need to be run from Jump Server or local machine. It should met following criteria
+- Reachability to IOS-XR device from where logs need to be captured.
+- Reachability to cxd.cisco.com
 
 ## Usage
 
@@ -71,10 +71,10 @@ Steps to ready environment on Jump Server to run this tool.
 
 - Below are the information required to run the script.
 
-   * SR number - This will work as username for file upload to CXD (Customer Experience Drive).
-   * Token for file Upload - This is Secure Token to upload file to CXD Drive using HTTPS put method.
-   * Device IP and Credentials (Script doesn’t store any credentials for Security purpose)
-   * TAC requested ‘show tech commands’ or usual ‘show commands’
+	- SR number - This will work as username for file upload to CXD (Customer Experience Drive).
+	- Token for file Upload - This is Secure Token to upload file to CXD Drive using HTTPS put method.
+	- Device IP and Credentials (Script doesn’t store any credentials for Security purpose)
+	- TAC requested ‘show tech commands’ or usual ‘show commands’
    
 
 This Script provides 5 user options to choose from:
